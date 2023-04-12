@@ -1,0 +1,219 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+         <link rel="stylesheet" href="css/all.css">
+        
+    </head>
+
+<style>
+body
+{
+    height: 1050px;
+width: 150px;
+background-image: url("gif/gb.jpg");
+ background-attachment: fixed;  
+background-size: cover;  
+}
+
+.div1 {width: 200px;
+         height: 150px;
+         top: 0;
+        position: absolute;
+       animation-name: change;
+       animation-duration: 5s;
+   animation-fill-mode: forwards;
+      
+}
+@keyframes  change { 
+      from {
+                   left: 0;
+                 }
+            
+               to {
+                      
+                       left: 1000px;
+                     }
+}
+
+/**************/
+.div2 {width: 200px;
+         height: 150px;
+         margin-left:  1000px;
+         margin-top:  150px;
+          position: absolute;
+        animation-name: main;
+       animation-duration: 5s;
+      animation-delay: 5s;
+     animation-fill-mode: forwards;
+}
+@keyframes  main { 
+      from {
+                  
+                   right: 0;
+                 }
+           
+               to {
+                       right: 1100px;
+                     }
+
+}
+/**************/
+.div3 {width: 200px;
+         height: 150px;
+       margin-top: 300px;
+        position: absolute;
+       animation-name: app;
+       animation-duration: 5s;
+       animation-delay: 10s;
+     animation-fill-mode: forwards;
+}
+@keyframes  app { 
+      from {
+                  
+                   left: 0;
+                 }
+            
+               to {
+                      
+                       left: 1000px;
+                     }
+
+}
+/**************/
+.div4 {width: 200px;
+         height: 150px;
+         margin-left:  1000px;
+        margin-top: 450px;
+          position: absolute;
+        animation-name: mar;
+       animation-duration: 5s;
+      animation-delay: 15s;
+animation-fill-mode: forwards;
+}
+@keyframes  mar { 
+      from {
+                  
+                   right: 0;
+                 }
+            
+               to {
+                      
+                       right: 1100px;
+                     }
+
+}
+/**************/
+.div5 {width: 200px;
+         height: 150px;
+       margin-top: 600px;
+        position: absolute;
+       animation-name: par;
+       animation-duration: 5s;
+       animation-delay: 20s;
+animation-fill-mode: forwards;
+}
+@keyframes  par { 
+      from {
+                  
+                   left: 0;
+                 }
+             50% {
+                         left: 800px;
+                    }
+               to {
+                      
+                       left: 1000px;
+                     }
+
+}
+
+/***************/
+.div6 {width: 200px;
+         height: 150px;
+         margin-left:  1000px;
+        margin-top: 750px;
+          position: absolute;
+        animation-name: mar;
+       animation-duration: 5s;
+      animation-delay: 25s;
+animation-fill-mode: forwards;
+}
+@keyframes  mar { 
+      from {
+                 
+                   right: 0;
+                 }
+             
+               to {
+                      
+                       right: 1100px;
+                     }
+
+}
+/**************/
+.div7 {width: 150px;
+         height: 200px;
+       margin-top: 900px;
+       margin-right: 1000px;
+        position: absolute;
+       animation-name: sr;
+       animation-duration: 5s;
+       animation-delay: 30s;
+animation-fill-mode: forwards;
+}
+@keyframes  sr { 
+      from {
+              
+                   left: 0;
+                 }
+           
+               to {
+                      
+                       left: 1000px;
+                     }
+
+}
+/**************/
+.div8 {width: 150px;
+         height: 200px;
+         margin-left:  1000px;
+        margin-top: 1050px;
+          position: absolute;
+        animation-name: due;
+       animation-duration: 5s;
+      animation-delay: 35s;
+animation-fill-mode: forwards;
+}
+@keyframes  due { 
+      from {
+                  
+                   right: 0;
+                 }
+           
+               to {
+                      
+                       right: 1000px;
+                     }
+
+}
+/**************/
+</style>
+
+<body>
+               
+                <div class="div1"><img class=works-img src="gif/bg.gif" ></div>
+               <div class="div2"><img class=works-img src="gif/bg.gif" ></div>
+
+                <div class="div3"><img class=works-img src="gif/bg.gif" ></div>
+                <div class="div4"><img class=works-img src="gif/bg.gif" ></div>
+               
+        
+            
+              <div class="div5"><img class=works-img src="gif/bg.gif" ></div>
+               <div class="div6"><img class=works-img src="gif/bg.gif" ></div>
+
+                <div class="div7"><img class=works-img src="gif/bg.gif"></div>
+                <div class="div8"><img class=works-img src="gif/bg.gif" ></div>
+                 
+</body>
+</html>
